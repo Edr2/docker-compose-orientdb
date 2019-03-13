@@ -3,8 +3,8 @@ services:
   orientdb:
     image: "orientdb:latest"
     ports:
-      - "2425:2424"
-      - "2481:2480"
+      - "2424:2424"
+      - "2480:2480"
     environment:
       ORIENTDB_ROOT_PASSWORD: 'root'
     volumes:
